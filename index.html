@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Los mejores">
+  <meta name="author" content="">
+
+  <title>Decpers Blogs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Courgette&family=Unica+One&family=Yantramanav:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-home.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand " style="color: #B3F700;font-family: 'Courgette', cursive;" href="#"><img src="img/decpers.png" style="width: 50px; height: 50px; ">DECPERS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item active" >
+            <a class="nav-link" style="color: #B3F700; font-family: 'Unica One', cursive;" href="#">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="#">Autor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="#">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+        <!-- Blog Post -->
+          <img style="width: 100%;" src="img/cards/thumbail.jpg">
+          <div class="card-body" style="width: 100%;">
+            <h2 class="card-title">¿Cómo iniciar en la programación?</h2>
+            <p class="card-text"><strong>¡La programación es para todos!</strong>
+              <br><br>
+              Si de verdad tienes las ganas de aprender a programar puedes ser programador, además, sí eres muy  organizado puedes convertirte en un profesional nivel senior en esta área.<br><br>
+
+              Te voy a contar desde mi experiencia personal cual sería el mejor camino para aprender a programar. Durante mi carrera como estudiante de computación, me pude dar cuenta que para comenzar a dominar esta área, se debe seguir el siguiente camino.<br><br>
+
+              <strong>1. Aprende los fundamentos básicos de programación</strong><br>
+
+              Cuando te hablo de fundamentos me refiero a conocimientos que necesitarás usar siempre, por esta razón te los enlisto a continuación:<br>
+              
+              <br><strong>Variables</strong><br>
+              Te recomiendo imaginar una variable como un cajoncito con algo guardado en su interior, ese algo en su interior se lo conoce como dato, para indicar que vas a guardar un dato dato en tu variable, debes usar el signo "<strong>=</strong>",  lo ultimo que debes conocer será el cómo mostrar por pantalla tus variables, para eso usarás una maquinita especializada en mostrar cosas que están guardadas. Mejor te mostrare un ejemplo básico que puedes usar en lenguaje <strong>Python</strong>, esta variable almacenará una edad en numeros, asi que la llamaré <strong>miEdad</strong> y meteré ahi el número <strong>20</strong>, luego lo mostraré por consola metiendo mi variable en una maquinita (función) llamada <strong>print()</strong>.<br>
+
+<pre class="bg-dark text-white"><span class="text-success">#Aqui la definimos</span>
+miEdad = 20 
+<span class="text-success">#Luego la mostramos por consola</span>
+print(miEdad)</pre>
+
+              En la consola verás esto:<br>
+              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  20</pre>
+
+              <strong>Estructuras de control</strong><br>
+              Hablemos de estructuras de control como si se tratase del guardia del cine, el cual solo te dejará entrar si tienes un boleto, caso contrario no te dejará entrar. Lo que te acabo de contar es muy similar a una estructura de control del tipo <strong>if-else</strong>, donde tu programa debe cumplir una condición para realizar una acción especifica y en caso de no cumplir esa condición, se realizará otra acción, pero distinta. Dejame mostrarte con un ejemplo, supongamos que para entrar al cine debes tener el boleto así y si tienes el boleto, asi que crearemos una variable llamada <strong>miBoleto</strong> y dentro de ella guardaremos la frase "<strong>Tengo un boleto</strong>". Luego comprobaremos si cumples la condición para entrar usando a nuestro guardía, que en este caso es el <strong>if</strong>, veamos como sería en código.<br>
+
+<pre class="text-white bg-dark">
+<span class="text-success">#Creamos nuestra variable</span>
+miBoleto = "Tengo mi boleto"<br>
+<span class="text-success">#Comprobamos que se cumpla la condición del if</span>
+<span class="text-primary">if</span>(miBoleto == <span class="text-warning">"Tengo mi boleto"</span>):
+  print(<span class="text-warning">"Puedes pasar"</span>)
+<span class="text-primary">else</span>:
+  print(<span class="text-warning">"No puedes pasar"</span>)
+</pre>
+
+              Como la condición te está preguntando si tu variable <strong>miBoleto</strong> es igual igual a  "<strong>Tengo un boleto</strong>" y como eso es cierto, entonces podrás pasar. Por lo tanto verás en consola:<br><br>
+              
+              
+              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  Puedes pasar</pre>
+
+              Luego de eso, tendrás que investigar sobre los bucles: <strong>for</strong>, <strong>while</strong>, <strong>do-while</strong>. Hay uno que tambien debes conocer y es el "<strong>switch</strong>", aunque este es un metodo de casos, tambien controla el flujo o el camino que seguira nuestro programa, asi que es importante que sepas su funcionamiento, mientras investigues y pongas a prueba tu codigo lo entenderás más a profundidad. Lo que debes tener en cuenta sobre los bucles es que como correr en circulos mientras haces cosas, hasta que alguien te diga que pares. En blogs posteriores profundizaremos en ellos.<br>
+
+              <br><strong>Funciones</strong><br>
+              Antes hice mención a una maquinita que hace algo que nosotros le digamos, pues eso es literalmente una función, unas veces tendrás que meter algo en la maquinita para que trabaje y otras veces no necesitaras meter nada. Pero ya entrando en materia, eso que metemos en la maquinita le llamaremos parámetros, que no son otra cosa que variables u objetos, ya luego te hablare de los objetos, lo importante es que nuestra maquinita hace algo y nos muestra lo que hace devolviendo un resultado, luego este resultado lo podemos mostrar al meter nuestra maquinita <strong>suma()</strong> en la otra maquinita que usamos antes llamada <strong>print()</strong>.<br><br>
+              Te muestro un ejemplo, vamos a crear una función que va a sumar dos números y nos mostrará el resultado, a esta función la llamaremos: <br><br>
+
+              <pre class="bg-dark text-white"><span class="text-success"> def</span> suma():
+              </pre>
+            
+              Como hay que sumar dos números debemos meter esos dos número en la máquina para que los procese, así que los meteremos en los parentesis así: <br><br>
+              <pre class="bg-dark text-white"><span class="text-success"> def</span> suma(primerNumero, segundoNumero):
+              </pre>
+
+              Una vez echo eso le indicaremos la instruciones a la máquina para que sepa que debe hacer con esos numeros, en este caso queremos que retorne <strong>primerNumero</strong> + <strong>segundoNumero</strong> asi que, eso es lo que escribiremos despues de los dos puntos.<br><br>
+<pre class="bg-dark text-white">
+<span class="text-success">def</span> suma(primerNumero, segundoNumero):
+  <span class="text-danger">return</span> primerNumero + segundoNumero
+</pre>
+
+              Ahora ya está lista nuestra máquina, vamos a ponerla funcionar, para eso meteremos dos números separados por coma en ella y para mostrar el resultado meteremos nuestra maquina <strong>suma()</strong> en la maquinita <strong>print()</strong>. Nuestro código completo quedaria así:<br><br>
+<pre class="bg-dark text-white">
+<span class="text-success">def</span> suma(primerNumero, segundoNumero):
+  <span class="text-danger">return</span> primerNumero + segundoNumero
+print(suma(3,4))
+</pre>
+
+              Al compilarlo veriamos por consola los siguiente:<br><br>
+
+              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  7</pre>
+
+              
+
+              Asi nos damos cuenta de que nuestra máquina o función está trabajando como queremos.<br><br>
+
+
+              <strong>Clases</strong><br>
+              En cuanto a las clases te hablare de ellas como si fueran objetos, usemos un teléfono celular para comprender las clases. Veamos, un telefono tiene caracteristicas como: color, marca, diseño, sistema operativo, etc. En las clases a estas caracteristas se les llama atributos, estos atributos son solo variables internas de la clase, por otro lado, el celular realiza acciones, estas acciones pueden ser: llamar, mensajear, tomar fotos, reproducir musica, etc. Y como hablamos de clases, aquí a estas acciones se les conoce como métodos, que no son otra cosa que funciones o maquinitas internas de la clase.<br><br>
+              Profundizaremos este tema en un blog posterior, asi que te dejo de tarea investigar al respecto.<br>
+
+              <br><strong>2. Planteate mini proyectos personales</strong><br>
+
+              Con esto me refiero a que cada vez que quieras practicar define que es lo que quieres hacer y luego dividelo en actividades más pequeñas, por ejemplo, crea una función que cuente del 1 hasta el 100 o una que transforme metros a kilometros, sé que son básicos estos ejemplos, pero eso te ayudará a ser más disciplinado al codificar y cuando trabajes en proyectos más grandes podrás definir un cronograma de actividades que podrás cumplir facilmente gracias a tu disciplina.
+            </p>
+          </div>
+          <div class="card-footer text-muted">
+            Fecha de Publicación: 6 de Octubre del 2020 por
+            <a href="#">Gary Guerrero</a>
+          </div>
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item">
+            <a class="page-link" href="#">&larr; Older</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Newer &rarr;</a>
+          </li>
+        </ul>
+
+      </div>
+
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark ">
+    <div class="container">
+      <p class="m-0 text-center " style="color: #B3F700">Copyright &copy; Decpers 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

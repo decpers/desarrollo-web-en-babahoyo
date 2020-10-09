@@ -5,28 +5,36 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Los mejores">
-  <meta name="author" content="">
+  <meta name="description" content="Los mejores tips para aprender a programar facilmente">
+  <meta name="author" content="Decpers Development">
 
   <title>Decpers Blogs</title>
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Courgette&family=Unica+One&family=Yantramanav:wght@700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Fuentes usadas para parrafos y textos -->
+  <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+
+  <link  rel="icon"   href="img/decpers.png" type="image/png" />
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <!-- Custom styles for this template -->
   <link href="css/blog-home.css" rel="stylesheet">
+
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg fixed-top" >
     <div class="container">
-      <a class="navbar-brand " style="color: #B3F700;font-family: 'Courgette', cursive;" href="#"><img src="img/decpers.png" style="width: 50px; height: 50px; ">DECPERS</a>
+      <a class="navbar-brand" href="#"><img class="image-logo" src="img/decpers.png">DECPERS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa fa-bars color-bars" aria-hidden="true"></i> 
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto" >
@@ -36,13 +44,13 @@
             </a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="pages/nosotros.html">Nosotros</a>
+            <a class="nav-link" style="color: white; font-family: 'Unica One', cursive;" href="pages/nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="pages/autor.html">Autor</a>
+            <a class="nav-link" style="color: white;font-family: 'Unica One', cursive;" href="pages/autor.html">Autor</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #01BFC8;font-family: 'Unica One', cursive;" href="pages/contáctanos.html">Contáctanos</a>
+            <a class="nav-link" style="color: white;font-family: 'Unica One', cursive;" href="pages/contáctanos.html">Contáctanos</a>
           </li>
         </ul>
       </div>
@@ -50,114 +58,413 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
         <!-- Blog Post -->
 
-          <img style="width: 100%;margin-top:10%;" src="img/cards/thumbail.jpg">
-          <div class="card-body" style="width: 100%;">
-            <h2 class="card-title">4 pasos para aprender a programar de manera fácil como los profesionales</h2>
-            <p class="card-text"><strong>¡La programación es para todos!</strong>
-              <br><br>
-              Si de verdad tienes las ganas de aprender a programar puedes ser programador, además, sí eres muy  organizado puedes convertirte en un profesional nivel senior en esta área.<br><br>
+        <img class="banner-image" src="img/cards/thumbail.jpg">
+        <h2 class="title">4 pasos para aprender a programar de manera fácil como los <span class="important-color">profesionales</span></h2>
+        <div class="container">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="subtitles">
+                <strong>La ruta más efectiva para ser programador</strong>
+              </span>
+              <br>
+              <br>
 
-              Te voy a contar desde mi experiencia personal cual sería el mejor camino para aprender a programar. Durante mi carrera como estudiante de computación, me pude dar cuenta que para comenzar a dominar esta área, se debe seguir el siguiente camino.<br><br>
+              Te voy a contar desde mi experiencia profesional cual sería el mejor camino para tú aprendas a programar.
+              <br>
+              <br>
+              Durante mi carrera como estudiante, docente de computación y desarrollador de sistemas, me pude dar cuenta que para comenzar a dominar esta área, hay un camino fácil y es el que muestro a continuación:
+              <br>
+              <br>
 
-              <strong>1. Aprende los fundamentos básicos de programación</strong><br>
-
-              Cuando te hablo de fundamentos me refiero a conocimientos que necesitarás usar siempre, por esta razón te los enlisto a continuación:<br>
-              
-              <br><strong>Variables</strong><br>
-              Te recomiendo imaginar una variable como un cajoncito con algo guardado en su interior, ese algo en su interior se lo conoce como dato, para indicar que vas a guardar un dato dentro de tu variable, debes usar el signo "<strong>=</strong>" a lado derecho de tu variable, lo último que debes conocer en esta parte será el cómo mostrar por pantalla tus variables, para eso usarás una maquinita especializada en mostrar cosas que están guardadas. Mejor te mostraré un ejemplo básico que puedes usar en el lenguaje <strong>Python</strong>, así podrás ver lo fácil que es, pues bien, la variable de nuestro ejemplo almacenará una edad en números, por lo que la llamaré <strong>miEdad</strong> (las variables no llevan tílde, porque suelen generar un error en nuestro código) y meteré ahí el número <strong>20</strong>, luego lo mostraré por consola metiendo mi variable en una maquinita (función) llamada <strong>print()</strong>.<br>
-
+              <span class="subtitles-2"><strong>1. Aprende los fundamentos básicos de programación</strong></span><br>
+              Cuando te hablo de fundamentos me refiero a conocimientos que necesitarás usar siempre, por esta razón te los enlisto a continuación:
+            </p>              
+              <br>
+            <p>
+              <span class="subtitles-3">
+                <strong>Variables</strong>
+              </span>
+              <br>
+              Imagina una variable como un caja con algo guardado en su interior, ese algo en su interior es un <strong>dato</strong>.
+              <br>
+              <br>
+              Para guardar un dato dentro de tu variable, siempre usarás el signo "<strong>=</strong>".
+              <br>
+              <br>
+              Lo último que debes conocer en esta parte, será las funciones que permiten mostrar por pantalla tus variables, la que más se usa es el <strong>print()</strong>.
+              <br>
+              <br>
+              Te muestro un ejemplo básico en el lenguaje <strong>Python</strong>, así podrás ver lo fácil que es.
+              <br>
+              <br>
+              Pues bien, la variable de nuestro ejemplo almacenará una edad en números, por lo que la llamaré <strong>miEdad</strong> y guardaré ahí el número <strong>20</strong>, luego lo mostraré por consola usando la función llamada <strong>print()</strong>.
+            </p>
+            <br>
+<!-- Texto formateado para simular editor de Python -->
 <pre class="bg-dark text-white"><span class="text-success">#Aqui la definimos</span>
 miEdad = 20 
 <span class="text-success">#Luego la mostramos por consola</span>
 print(miEdad)</pre>
-
-              En la consola verás esto:<br>
-              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  20</pre>
-
-              <strong>Estructuras de control</strong><br>
-              Hablemos de estructuras de control como si se tratase del guardia del cine, el cual solo te dejará entrar si tienes un boleto, caso contrario no te dejará entrar. Lo que te acabo de contar es muy similar a una estructura de control del tipo <strong>if-else</strong>, donde tu programa debe cumplir una condición para realizar una acción especifica y en caso de no cumplir esa condición, se realizará otra acción, pero distinta. Dejame mostrarte con un ejemplo, supongamos que para entrar al cine debes tener un boleto  y sí tienes un boleto, por lo tanto crearemos una variable llamada <strong>miBoleto</strong> y dentro de ella guardaremos la frase "<strong>Tengo mi boleto</strong>". Luego comprobaremos si cumples la condición para entrar usando a nuestro guardia, que en este caso es el <strong>if</strong>, veamos como sería en código.<br>
-
-<pre class="text-white bg-dark">
-<span class="text-success">#Creamos nuestra variable</span>
-miBoleto = "Tengo mi boleto"<br>
-<span class="text-success">#Comprobamos que se cumpla la condición del if</span>
-<span class="text-primary">if</span>(miBoleto == <span class="text-warning">"Tengo mi boleto"</span>):
-  print(<span class="text-warning">"Puedes pasar"</span>)
-<span class="text-primary">else</span>:
-  print(<span class="text-warning">"No puedes pasar"</span>)
-</pre>
-
-              Como la condición te está preguntando si tu variable <strong>miBoleto</strong> es igual igual a  "<strong>Tengo mi boleto</strong>" y como eso es cierto, entonces podrás pasar. Por lo tanto verás en consola:<br><br>
-              
-              
-              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  Puedes pasar</pre>
-
-              Luego de eso, tendrás que investigar sobre los bucles: <strong>for</strong>, <strong>while</strong>, <strong>do-while</strong>. Hay uno que tambien debes conocer y es el "<strong>switch</strong>", aunque este es un método de casos, tambien controla el flujo o el camino que seguirá nuestro programa, así que es importante que sepas su funcionamiento, mientras investigues y pongas a prueba tu código lo entenderás más a profundidad. Lo que debes tener en cuenta sobre los bucles es que un bucle es como correr en círculos mientras haces cosas, hasta que alguien te diga que pares o cumplas con lo que te habías propuesto previamente. En blogs posteriores profundizaremos en ellos.<br>
-
-              <br><strong>Funciones</strong><br>
-              Antes hice mención a una maquinita que hace algo que nosotros le digamos, pues eso es literalmente una función, unas veces tendrás que meter algo en la maquinita para que trabaje y otras veces no necesitaras meter nada. Pero ya entrando en materia, eso que metemos en la maquinita le llamaremos parámetros, que no son otra cosa que variables u objetos, ya luego te hablaré de los objetos, lo importante es que nuestra maquinita hace algo y nos muestra lo que hace devolviendo un resultado, luego este resultado lo podemos mostrar al meter nuestra maquinita (función) en la otra maquinita (función) que usamos antes, llamada <strong>print()</strong>.<br><br>
-              Te muestro un ejemplo, vamos a crear una función que va a sumar dos números y nos mostrará el resultado, a esta función la llamaremos: <br><br>
-
-              <pre class="bg-dark text-white"><span class="text-success"> def</span> suma():
-              </pre>
-            
-              Como hay que sumar dos números debemos meter esos dos números en la máquina para que los procese, así que los meteremos en los parentesis de la siguiente manera: <br><br>
-              <pre class="bg-dark text-white"><span class="text-success"> def</span> suma(primerNumero, segundoNumero):
-              </pre>
-
-              Una vez echo eso, le indicaremos las instruciones a nuestra máquina para que sepa qué debe hacer con esos números, en este caso queremos que retorne <strong>primerNumero</strong> + <strong>segundoNumero</strong> así que, eso es lo que escribiremos despues de los dos puntos.<br><br>
-<pre class="bg-dark text-white">
-<span class="text-success">def</span> suma(primerNumero, segundoNumero):
-  <span class="text-danger">return</span> primerNumero + segundoNumero
-</pre>
-
-              Ahora ya está lista nuestra máquina, vamos a ponerla funcionar, para eso meteremos dos números separados por coma en ella y para mostrar el resultado meteremos nuestra función <strong>suma()</strong> en la maquinita <strong>print()</strong>. Nuestro código completo quedaria así:<br><br>
-<pre class="bg-dark text-white">
-<span class="text-success">def</span> suma(primerNumero, segundoNumero):
-  <span class="text-danger">return</span> primerNumero + segundoNumero
-print(suma(3,4))
-</pre>
-
-              Al compilarlo veríamos por consola los siguiente:<br><br>
-
-              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  7</pre>
-
-              
-
-              Así nos damos cuenta de que nuestra máquina o función está trabajando como queremos.<br><br>
-
-
-              <strong>Clases</strong><br>
-              En cuanto a las clases te hablaré de ellas como si fueran objetos, usemos un teléfono celular para comprender las clases. Veamos, un teléfono tiene características como: color, marca, diseño, sistema operativo, etc. En las clases a estas características se les llama atributos, estos atributos son solo las variables internas de la clase, por otro lado, el celular realiza acciones, estas acciones pueden ser: llamar, mensajear, tomar fotos, reproducir música, etc. Y como hablamos de clases, aquí a estas acciones se les conoce como métodos, que no son otra cosa que funciones o maquinitas internas de la clase.<br><br>
-              Profundizaremos este tema en un blog posterior, asi que te dejo de tarea investigar al respecto.<br>
-
-              <br><strong>2. Planteate mini proyectos personales</strong><br>
-
-              Con esto me refiero a que cada vez que quieras practicar, define qué es lo que quieres hacer y luego divídelo en actividades más pequeñas, por ejemplo, crea una función que cuente del <strong>1</strong> hasta el <strong>100</strong> o una que transforme <strong>metros</strong> a <strong>kilometros</strong>, sé que son básicos estos ejemplos, pero eso te ayudará a ser más disciplinado al codificar y cuando trabajes en proyectos más grandes podrás definir un cronograma de actividades que podrás cumplir facilmente gracias a tu disciplina.
-            
-            <br><br><strong>3. Escoge un lenguaje de programación</strong><br>
-            Se que es llamativo querer dominar todos los lenguajes y ser un profesional en todos, pero si te enfocas en aprender de todos a la vez no dominarás ninguno, por esta razón te recomiendo elegir uno, estudiarlo a profundidad, ir practicando y practicando, hasta dominarlo por completo y ser muy bueno en dicho lenguaje, ya luego podrás migrar a otro lenguaje.
-            
-            <br><br><strong>4. Aprende sobre algoritmos</strong><br>
-            Todo lo que te mencioné en la parte superior lo usarás siempre para trabajar como desarrollador, solo que me faltó un detalle, practica y repasa siempre la lógica de tus programas, usando pseudocódigo y algoritmos, de esta forma podrás volver a desarrollarlo desde cero nuevamente.<br><br>
-            Espero que este post te haya ayudado a comprender el inicio de una de las carreras más apasionantes de esta nueva era.
+<!----------------------------------------------------->
+            <br>
+            <p>
+              En la consola verás esto:
             </p>
+            <br>
+            <!-- Texto formateado para simular consola de Python -->
+            <pre class="text-white bg-dark"><pre class="bg-primary text-white"> Console</pre> 20</pre>
+            <!---------------------------------------------->
+            <br>
+            <p>
+              De ahi en adelante solo te queda revisar los tipos de variables que hay en programación, aunque te doy una pista. Los que más se usan son: Enteros, Booleanos, Dobles, Flotantes y Cadenas.
+            </p>
+            <br>
+            <p>
+              <span class="subtitles-3">
+                <strong>Estructuras de control</strong>
+              </span>
+              <br>
+              Las estructuras de control son como ese guardia del cine, el cual solo te deja entrar si tienes un boleto, caso contrario no te deja entrar a ver tu película favorita.
+              <br>
+              <br>
+              Esa situación es muy similar a lo que hacen las estructuras de control del tipo <strong>if-else</strong>, porque le dirás a tus programas que hagan algo, siempre y cuando cumplan con la condición que tu les especifiques. 
+              <br>
+              <br>
+              Te mostraré con un ejemplo, supongamos que quieres comprar, pero sabes que debes tener el dinero suficiente para comprarlo.
+              <br>
+              <br>
+              ¿verdad?
+              <br>
+              <br>
+              ¡¡Hagamos un programa con ese ejemplo!!
+              <br>
+              <br>
+              Primero, definamos el nombre de nuestra variable, la llamaremos <strong>tengoDinero</strong>, dentro de esta guardaremos nuestra repuesta, para saber si tenemos o no dinero para comprar el auto.
+              <br>
+              <br>
+              Luego, definiremos nuestra respuesta, en este ejemplo, asumiremos que tenemos el dinero para comprar el auto, así que guardaremos la frase <strong>"Si"</strong> dentro de nuestra variable.
+              <br>
+              <br>
+              Por lo que nuestro código quedaría así:
+              <br>
+              <br>
+            </p>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="text-white bg-dark">
+<!--***************************************************-->
+<span class="text-success">#Creamos nuestra variable</span>
+tengoDinero = "Si"
+<!--***************************************************-->
+</pre>
+<!----------------------------------------------------->
+            <br>
+            <p>                      
+              ¡¡Ahora sí!!
+              <br>
+              <br>
+              ¡¡veamos si podemos comprar el auto!!
+              <br>
+              <br>
+              Cuando vamos a la concesionaria, el vendedor nos preguntará si tenemos el dinero suficiente para el auto que queremos. Así que, crearemos un código que nos pregunte eso, pero usando un <strong>if</strong> y <strong>else</strong>.
+              <br>
+              <br>
+              Antes de eso, analicemos la estructura de los <strong>if-else</strong> de forma sencilla.
+              <br>
+              <br>
+              Un <strong>if</strong> para poder preguntar algo,  siempre lleva paréntesis, ya que es el único que pregunta en las estructuras <strong>if-else</strong> y dentro de esos paréntesis va la pregunta.
+              <br>
+              <br>
+              Tambien encontrarás llaves <strong>{ }</strong>, dentro de estas debes escribir lo que hará tu programa, sea que cumpla o no la condición, pero como hablamos del lenguaje <strong>Python</strong>, este usa los dos puntos <strong>:</strong> para reemplazar a las llaves <strong>{ }</strong>, pero hacen lo mismo.
+              <br>
+              <br>
+              Observa su estructura en la siguiente ventana.
+              <br>
+              <br>
+            </p>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="text-white bg-dark">
+<!--******************************************************-->
+<span class="text-primary">if</span>("Aqui va la condición"):
+  "Si cumple la condición hace esto"
+<span class="text-primary">else</span>:
+  "Si no cumple la condición hace esto"
+<!--******************************************************-->
+</pre>
+<!----------------------------------------------------->
+            <br>
+            <p>
+              En este momento ya podemos preguntar si tenemos o no el dinero para comprar el auto, ya que tenemos nuestra variable <strong>tengoDinero</strong> y sabemos como funciona la estructura <strong>if-else</strong>.
+              <br>
+              <br>
+              ¿Que te parece si le preguntamos a nuestra variable <strong>tengoDinero</strong> si su respuesta es <strong>Si</strong> o <strong>No</strong>?
+              <br>
+              <br>
+              Si su respuesta es <strong>Si</strong> entonces me mostrará un mensaje que diga <strong>"Puedes comprar el auto"</strong>, pero si me dice que <strong>No</strong> o cualquier otra respuesta nos mostrará un mensaje que diga <strong>"No puedes comprar el auto"</strong>.
+              <br>
+              <br>
+              Para mostrar el mensaje usaremos la función <string>print()</string>,ya que casi siempre la usarás para mostrar cualquier cosa en la pantalla.
+              <br>
+              <br>
+              ¡¡LLevemos a código todo lo que analizamos!!
+              <br>
+              <br>
+              ¿Te parece?
+              <br>
+              <br>
+              Así quedaría el código de nuestro programa:
+              <br>
+              <br>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="text-white bg-dark">
+<!--************************************************************-->
+<span class="text-success"># Creamos nuestra variable</span>
+tengoDinero = "Si"<br>
+<span class="text-success"># Le preguntamos a nuestra variable
+# si es que contiene la respuesta "Si",
+# y para eso usamos los signos == </span>
+<span class="text-primary">if</span>(tengoDinero == <span class="text-warning">"Si"</span>):
+<span class="text-success"># Mostramos el mensaje cuando se cumple la condición</span>
+  print(<span class="text-warning">"Puedes comprar el auto"</span>)
+<span class="text-primary">else</span>:
+<span class="text-success"># Mostramos el mensaje cuando no se cumple la condición</span>
+  print(<span class="text-warning">"No puedes comprar el auto"</span>)
+<!--************************************************************-->
+</pre>
+<!----------------------------------------------------->
+              <br>
+              <p>
+                Sabemos que nuestra variable <strong>tengoDinero</strong> contiene la respuesta "<strong>Si</strong>", entonces nos mostrará por consola el mensaje <strong>"Puedes comprar el auto"</strong>. En la consola verias esto:
+                <br>
+                <br>
+                <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  Puedes pasar</pre>
+                <br>
+                <p>
+                ¡¡Te invito a que lo compruebes!!
+                <br>
+                <br>
+                Copia el codigo completo y luego pégalo en el compilador online que te dejo a continuación:
+              </p>
+              <br>
+           --><a href="https://www.programiz.com/python-programming/online-compiler/">Click aquí para ir al compilador</a><--
+              <br>
+              <br>
+              <p>
+                ¡¡Ya hemos creado un programa juntos!!
+                <br>
+                <br>
+                Recuerda que siempre usamos el <strong>if-else</strong>, así que puedes practicar con el código que hicimos anteriormente cambiando los valores para que lo domines rapidamente.
+                <br>
+                <br>
+                Tambien hay otras estructuras de control que se usan siempre, te las mencionaré continuación para que las tengas en cuenta y puedas revisarlas a medida que vas dominándolas.
+                <br>
+                <br>
+                <strong>for</strong>
+                <br>
+                <strong>while</strong>
+                <br>
+                <strong>do-while</strong>
+                <br>
+                <strong>switch</strong>
+                <br>
+                <br>
+                No olvides practicar siempre lo que aprendes, los profesionales en esta área lo hacemos para manternos actualizados. 
+                <br>
+                <br>
+                <span class="subtitles-3">
+                  <strong>Funciones</strong>
+                </span>
+                <br>
+                Las funciones son como máquinas que hacen algo que nosotros le digamos, pues eso es literalmente una función.
+                <br>
+                <br>
+                Algunas de estas máquinas necesitan material para que funcionen, mientras que otras no necesitan nada para funcionar.
+                <br>
+                <br>
+                Lo interesante es que podemos crear nuestra propias máquinas con código.
+                <br>
+                <br>
+                ¿Que tal si creamos una?
+                <br>
+                <br>
+                Nuestra máquina va a realizar la suma de dos números de manera automática.
+                <br>
+                <br>
+                !!Analicemos!! ¿Nuestra máquina necesitará material para funcionar?
+                <br>
+                <br>
+                ¡¡Claro que sí!! va a necesitar los dos números que va a sumar. Por otro lado ¿cómo sabremos si realiza o no la suma?
+                <br>
+                <br>
+                !!Exacto¡¡ Haciendo que muestre el resultado por pantalla.
+                <br>
+                <br>
+                Ya tenemos la idea clara. Ahora si ya podemos empezar a codificar nuestra máquina o función. Primero, pongamosle un nombre a nuestra <strong>función</strong>, la llamaremos <strong>sumar</strong>, ahora si te mostraré como definimos o creamos nuestra <strong>función</strong> en <strong>Python</strong>. 
+                <br>
+                <br>
+                Observa con atención el siguiente código.
+              </p>
+              <br>
+
+<!-- Texto formateado para simular editor de Python -->
+<pre class="bg-dark text-white">
+<!--************************************************************-->
+<span class="text-success"> def</span> suma():
+<!--************************************************************-->
+</pre>
+<!----------------------------------------------------->
+              <br>
+              <p>
+                Como pudiste ver en el código de arriba usamos la palabra <strong>def</strong> para que se pueda crear nuestra función, sin esa palabra no se creará, además vemos unos paréntesis <strong>()</strong> al lado del nombre de nuestra función, dentro de ellos se pone lo que necesita la función para funcionar.
+                <br>
+                <br>
+                Nuestrá maquina va a necesitar los dos números que sumará para poder funcionar, asi que meteremos esos números en los paréntesis.
+                <br>
+                <br>
+                Pero antes le daremos un nombre a esos números, los llamaremos <strong>primerNumero</strong> y <strong>segundoNumero</strong>.
+                <br>
+                <br>
+                Ahora si, ya podemos meter los números en los paréntesis y la función hasta ahora quedaría así.
+                <br>
+                <br>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="bg-dark text-white">
+<!--************************************************************-->
+<span class="text-success"> def</span> suma(primerNumero, segundoNumero):
+<!--************************************************************-->
+</pre>
+<!----------------------------------------------------->
+              <br>
+              <p>
+                Lo que nos queda hacer ahora, es indicarle que haga la suma, y muestre el resultado. Para eso usaremos la función <strong>print()</strong> que hemos usado antes. 
+              </p>
+              <br>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="bg-dark text-white">
+<!--************************************************************-->
+<span class="text-success"> def</span> suma(primerNumero, segundoNumero):
+  print( primerNumero <span class="text-primary">+</span> segundoNumero)
+<!--************************************************************-->
+</pre>
+<!----------------------------------------------------->
+              
+              <br>
+              <p>
+                ¡¡Ya está lista nuestra máquina, hagamos que empiece a funcionar!!
+                <br>
+                <br>
+                Para eso solo la llamaremos y meteremos los dos números que habiamos definido antes dentro de los paréntesis, pero esta vez no pondremos el nombre de los números, sino que pondremos números de verdad como <strong>4</strong> y <strong>6</strong>.
+                <br>
+                <br>
+                Nuestro código completo quedaría así
+              </p>
+                <br>
+<!-- Texto formateado para simular editor de Python -->
+<pre class="bg-dark text-white">
+<!--************************************************************-->
+<span class="text-success">def</span> suma(primerNumero, segundoNumero):
+  print( primerNumero <span class="text-primary">+</span> segundoNumero)
+<span class="text-success"># Aqui llamamos a nuestra función
+# para que sume</span>
+suma(4, 6)
+<!--************************************************************-->
+</pre>
+<!----------------------------------------------------->
+             <br>
+             <p>Al compilarlo veríamos por consola los siguiente:</p>
+             <br>
+             <!-- Texto formateado para simular la consola de Python -->
+              <pre class="text-white bg-dark"><pre class="bg-primary text-white">  Console</pre>  10</pre>
+              <!------------------------------------------------------>
+              <br>
+             <p>
+              Así nos damos cuenta de que nuestra máquina o función está trabajando como queremos.
+              <br>
+              <br>
+              ¿Quieres comprobarlo?
+              <br>
+              <br>
+              Copia el codigo completo y luego pégalo en el compilador online que te dejo a continuación:
+            </p>
+                <br>
+                --><a href="https://www.programiz.com/python-programming/online-compiler/">Click aquí para ir al compilador</a><--
+              <br>
+              <br>
+              <p>
+                ¡¡Ya hemos creado una función juntos!!
+                <br>
+                <br>
+                <span class="subtitles-3">
+                  <strong>Clases</strong>
+                </span>
+                <br>
+                En cuanto a las clases, te hablaré de ellas como si fueran objetos, usemos un teléfono celular para comprender las clases.
+                <br>
+                <br>
+                Veamos, un teléfono tiene características como: color, marca, diseño, sistema operativo, etc.
+                <br>
+                <br>
+                En las clases a estas características se les llama atributos, estos atributos son solo las variables internas de las clases.
+                <br>
+                <br>
+                Por otro lado, el celular realiza acciones, estas acciones pueden ser: llamar, mensajear, tomar fotos, reproducir música, etc.
+                <br>
+                <br>
+                Y como hablamos de clases, a estas acciones se les conoce como métodos, que no son otra cosa que funciones o maquinitas internas de la clase.
+                <br>
+                <br>
+                Profundizaremos este tema en un blog posterior, asi que te dejo de tarea investigar al respecto.
+                <br>
+                <br>
+                <span class="subtitles-2">
+                  <strong>2. Planteate mini proyectos personales</strong>
+                </span>
+                <br>
+                Con esto me refiero a que cada vez que quieras practicar, define qué es lo que quieres hacer y luego divídelo en actividades más pequeñas.
+                <br>
+                <br>
+                Por ejemplo, crea una función que cuente del <strong>1</strong> hasta el <strong>100</strong> o una que transforme <strong>metros</strong> a <strong>kilometros</strong>
+                <br>
+                <br>
+                Sé que estos ejemplos son sencillo y básicos, pero comenzar a trabajar con proyectos pequeños te ayudará a ser más disciplinado al codificar, de manera que, cuando trabajes en proyectos más grandes podrás adaptarte fácilmente a las actividades que se requieran.
+                <br>
+                <br>
+                !!Todo esto gracias a tu disciplina y organización!!.
+                <br>
+                <br>
+                <span class="subtitles-2">
+                  <strong>3. Escoge un lenguaje de programación</strong>
+                </span>
+                <br>
+                Es llamativo querer dominar todos los lenguajes y ser un profesional en todos, pero si te enfocas en aprender de todos a la vez no dominarás ninguno.
+                <br>
+                <br>
+                Por esta razón, te recomiendo elegir un solo lenguaje a la vez, estudiarlo a profundidad, ir practicando y practicando, hasta dominarlo por completo y ser muy bueno en dicho lenguaje, tanto en sintaxis, como la lógica para desarrollar programas en el, ya luego podrás migrar a otro lenguaje.     
+                <br>
+                <br>
+                <span class="subtitles-2">
+                  <strong>4. Aprende sobre algoritmos</strong>
+                </span>
+                <br>
+                Todo lo que te mencioné en la parte superior lo usarás siempre para trabajar como desarrollador, solo que me faltó un detalle, practica y repasa siempre la lógica de tus programas, usando pseudocódigo y algoritmos, de esta forma podrás volver a desarrollarlo desde cero nuevamente.
+                <br>
+                <br>
+                Espero que este post te haya ayudado a comprender el inicio de una de las carreras más apasionantes de esta nueva era.
+              </p>
           </div>
           <div class="card-footer text-muted">
-            Fecha de Publicación: 6 de Octubre del 2020 por
-            <a href="#">Gary Guerrero</a>
+            <p>Fecha de Publicación: 6 de Octubre del 2020 por
+              <a href="#">Gary Guerrero</a>
+            </p>
           </div>
-
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
+            <a class="page-link" href="#">&larr; Anterior</a>
           </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
+            <a class="page-link" href="#">Siguiente &rarr;</a>
           </li>
         </ul>
 

@@ -102,28 +102,43 @@ p{
 }
 
 @media only screen and (max-width: 1144px) {
-  .title{
+  	.title{
 	top: 20%;
 }
+
+	.footer-adapter{
+	font-size: 1rem;
+}
 }
 
 
 @media only screen and (max-width: 700px) {
-  .title{
+  	.title{
 	top: 18%;
 }
+
+	.footer-adapter{
+	font-size: 1rem;
+}
 }
 
 @media only screen and (max-width: 700px) {
-  .title{
+	.title{
 	top: 15%;
-}
+	}
+	.footer-adapter{
+		font-size: 1rem;
+	}
 }
 
 @media only screen and (max-width: 300px) {
-  .title{
-	top: 12%;
-}
+	.title{
+		top: 12%;
+	}
+
+	.footer-adapter{
+	font-size: 1rem;
+	}
 }
 
 /*
